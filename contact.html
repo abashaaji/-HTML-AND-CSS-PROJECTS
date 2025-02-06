@@ -3,26 +3,31 @@
          <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
             <div>
-                <h1>Contact us!</h1>
+                <h1 class="animte-text">Contact us!</h1>
             </div>
          </head>
          <!--FORM-->
+         
          <section>
             <div>
-                <h3>please provide your contact information and a brief message of your inquiry</h3>
+                <h3 id="contact-h3">please provide your contact information and a brief message of your inquiry</h3>
             </div>
             <div>
-                <form action=""><input type="text" placeholder="First Name"> <br>
-                <input type="text" placeholder="Last Name"></form> <br>
-                <input type="Email" placeholder="Email"> <br>
+                <form action="">
+                <input type="text" placeholder="First Name"> 
+                <input type="text" placeholder="Last Name"> <br>
+                <input type="Email" placeholder="Email"> 
                 <input type="tel" placeholder="phone Number"> <br>
-                <input type="chekbox" id="Newsletter">
-                <label for="Newsletter">Would you like to recieve our monthly newsletter ?</label><br>
-                <textarea placeholder="Type message here...."></textarea><br>
+                <input type="checkbox" id="myCheckbox">
+                <label for="Newsletter"> <br> Would you like to recieve our monthly newsletter ?</label><br>
+                <textarea placeholder="Type message here...." class="textarea"></textarea><br>
                 <input type="submit" value="submit">
+            </form>
             </div>
          </section>
+       
          <!--footer-->
          <footer>
          <table>
