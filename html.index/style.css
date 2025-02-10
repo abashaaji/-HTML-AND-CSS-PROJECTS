@@ -1,0 +1,28 @@
+body {
+    font-family: "Sofia", sans-serif; /* The text on the page will have the same text font family */
+  }
+h2{
+    color: rgb(85, 0, 255);
+    text-align: center; /* The text-align (center) property wil be center the text*/ 
+}
+.ul{
+    text-align: center;
+    color: darkblue;
+    
+
+}
+ /* setting the img to the center and also the width & height*/
+img{
+    width: 700px;
+    height: 550px;
+    margin: auto;
+    display: block;
+    transition: transform 0.3 ease-in;
+    
+}
+.img2{
+    margin-top: 80px; /* it seprates the two pictures from top*/
+}
+img:hover{
+    transform: scale(1.1);
+}
