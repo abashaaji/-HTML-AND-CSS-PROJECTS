@@ -1,0 +1,12 @@
+body{
+    font-family: 'Courier New', Courier, monospace;/* font from googlefonts.com*/
+    font-size: large;
+}
+input{
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 8px;
+    display: block; /* margin-bottom padding and display they add space between the inputs*/
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
